@@ -2,9 +2,11 @@ var _user$project$Main$add = F2(
 	function (a, b) {
 		return a + b;
 	});
-var _user$project$Main$result = A2(
-	_user$project$Main$add,
-	4,
+var _user$project$Main$result = function (b) {
+	return _elm_lang$core$Native_Utils.eq(
+		A2(_elm_lang$core$Basics_ops['%'], b, 2),
+		0);
+}(
 	A2(_user$project$Main$add, 1, 2));
 var _user$project$Main$main = {
 	main: _elm_lang$html$Html$text(
